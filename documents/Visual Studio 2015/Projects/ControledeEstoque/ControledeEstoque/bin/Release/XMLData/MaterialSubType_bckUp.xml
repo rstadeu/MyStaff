@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialSubType>
+  <MaterialSubTypes>
+    <SubTypeID>1</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>CABO</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>2</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>CABO</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>3</SubTypeID>
+    <MaterialTypeID>1</MaterialTypeID>
+    <SubTypeName>CONECTORES</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>4</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>CONECTORES</SubTypeName>
+  </MaterialSubTypes>
+</MaterialSubType>

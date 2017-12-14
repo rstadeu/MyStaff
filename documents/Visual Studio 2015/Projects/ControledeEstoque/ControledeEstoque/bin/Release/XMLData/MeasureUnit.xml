@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MeasureUnit>
+  <MeasureUnits>
+    <UnitID>1</UnitID>
+    <UnitType>METROS</UnitType>
+  </MeasureUnits>
+  <MeasureUnits>
+    <UnitID>1</UnitID>
+    <UnitType>PEÇA</UnitType>
+  </MeasureUnits>
+</MeasureUnit>

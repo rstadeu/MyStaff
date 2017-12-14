@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ControleEstoqueModelStoreContainer" CdmEntityContainer="ControleEstoqueEntities1">
+    <EntitySetMapping Name="Allocations">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Allocation">
+        <MappingFragment StoreEntitySet="Allocation">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+          <ScalarProperty Name="AllocationName" ColumnName="AllocationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BaixaOrdems">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.BaixaOrdem">
+        <MappingFragment StoreEntitySet="BaixaOrdem">
+          <ScalarProperty Name="BaixaOrdemID" ColumnName="BaixaOrdemID" />
+          <ScalarProperty Name="EstoqueID" ColumnName="EstoqueID" />
+          <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustoPorItems">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.CustoPorItem">
+        <MappingFragment StoreEntitySet="CustoPorItem">
+          <ScalarProperty Name="NotaFiscal" ColumnName="NotaFiscal" />
+          <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+          <ScalarProperty Name="CustoID" ColumnName="CustoID" />
+          <ScalarProperty Name="ProdutoID" ColumnName="ProdutoID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Custo" ColumnName="Custo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estoques">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Estoque">
+        <MappingFragment StoreEntitySet="Estoque">
+          <ScalarProperty Name="EstoqueID" ColumnName="EstoqueID" />
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ProductQtd" ColumnName="ProductQtd" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fornecedors">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Fornecedor">
+        <MappingFragment StoreEntitySet="Fornecedor">
+          <ScalarProperty Name="FornecedorID" ColumnName="FornecedorID" />
+          <ScalarProperty Name="NomeFornecedor" ColumnName="NomeFornecedor" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Ramal" ColumnName="Ramal" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kits">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Kit">
+        <MappingFragment StoreEntitySet="Kit">
+          <ScalarProperty Name="KitID" ColumnName="KitID" />
+          <ScalarProperty Name="KitName" ColumnName="KitName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KitChangeds">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.KitChanged">
+        <MappingFragment StoreEntitySet="KitChanged">
+          <ScalarProperty Name="KitChangedID" ColumnName="KitChangedID" />
+          <ScalarProperty Name="KitID" ColumnName="KitID" />
+          <ScalarProperty Name="TimeChanged" ColumnName="TimeChanged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KitLists">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.KitList">
+        <MappingFragment StoreEntitySet="KitList">
+          <ScalarProperty Name="KitListID" ColumnName="KitListID" />
+          <ScalarProperty Name="KitID" ColumnName="KitID" />
+          <ScalarProperty Name="OrderProductID" ColumnName="OrderProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialSubTypes">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.MaterialSubType">
+        <MappingFragment StoreEntitySet="MaterialSubType">
+          <ScalarProperty Name="SubTypeID" ColumnName="SubTypeID" />
+          <ScalarProperty Name="MaterialTypeID" ColumnName="MaterialTypeID" />
+          <ScalarProperty Name="SubTypeName" ColumnName="SubTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialTypes">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.MaterialType">
+        <MappingFragment StoreEntitySet="MaterialType">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeasureUnits">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.MeasureUnit">
+        <MappingFragment StoreEntitySet="MeasureUnit">
+          <ScalarProperty Name="MeasureUnitID" ColumnName="MeasureUnitID" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="OrderDescription" ColumnName="OrderDescription" />
+          <ScalarProperty Name="Invoice" ColumnName="Invoice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderProducts">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.OrderProduct">
+        <MappingFragment StoreEntitySet="OrderProducts">
+          <ScalarProperty Name="OrderProductsID" ColumnName="OrderProductsID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductChangeds">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.ProductChanged">
+        <MappingFragment StoreEntitySet="ProductChanged">
+          <ScalarProperty Name="ProductChangedID" ColumnName="ProductChangedID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produtoes">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Produto">
+        <MappingFragment StoreEntitySet="Produto">
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CustomerCod" ColumnName="CustomerCod" />
+          <ScalarProperty Name="PanalpinaCod" ColumnName="PanalpinaCod" />
+          <ScalarProperty Name="MaterialType" ColumnName="MaterialType" />
+          <ScalarProperty Name="MaterialSubType" ColumnName="MaterialSubType" />
+          <ScalarProperty Name="Product" ColumnName="Product" />
+          <ScalarProperty Name="MeasureUnit" ColumnName="MeasureUnit" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProdutoFornecedors">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.ProdutoFornecedor">
+        <MappingFragment StoreEntitySet="ProdutoFornecedor">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FornecedorID" ColumnName="FornecedorID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stocks">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Stock">
+        <MappingFragment StoreEntitySet="Stock">
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+          <ScalarProperty Name="StockName" ColumnName="StockName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transferencias">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.Transferencia">
+        <MappingFragment StoreEntitySet="Transferencia">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EstoqueIDFrom" ColumnName="EstoqueIDFrom" />
+          <ScalarProperty Name="EstoqueIDTo" ColumnName="EstoqueIDTo" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrecoProdutos">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.PrecoProduto">
+        <MappingFragment StoreEntitySet="PrecoProdutos">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="OrderProductsID" ColumnName="OrderProductsID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderProductsChecks">
+      <EntityTypeMapping TypeName="ControleEstoqueModel.OrderProductsCheck">
+        <MappingFragment StoreEntitySet="OrderProductsCheck">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="OrderProductsID" ColumnName="OrderProductsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

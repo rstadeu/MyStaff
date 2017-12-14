@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialType>
+  <MaterialTypes>
+    <TypeID>1</TypeID>
+    <TypeName>FERRAMENTAS</TypeName>
+  </MaterialTypes>
+  <MaterialTypes>
+    <TypeID>2</TypeID>
+    <TypeName>CONSUMÍVEIS</TypeName>
+  </MaterialTypes>
+  <MaterialTypes>
+    <TypeID>3</TypeID>
+    <TypeName>EPI</TypeName>
+  </MaterialTypes>
+</MaterialType>

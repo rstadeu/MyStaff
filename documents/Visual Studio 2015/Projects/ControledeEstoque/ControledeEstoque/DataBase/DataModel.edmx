@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ControleEstoqueModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=C:\Users\Roberto\Documents\ControleEstoque.db" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Allocation">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StockID" Type="integer" Nullable="false" />
+          <Property Name="AllocationName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BaixaOrdem">
+          <Key>
+            <PropertyRef Name="BaixaOrdemID" />
+          </Key>
+          <Property Name="BaixaOrdemID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EstoqueID" Type="integer" Nullable="false" />
+          <Property Name="Quantidade" Type="integer" Nullable="false" />
+          <Property Name="Date" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CustoPorItem">
+          <Key>
+            <PropertyRef Name="CustoID" />
+          </Key>
+          <Property Name="CustoID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProdutoID" Type="integer" Nullable="false" />
+          <Property Name="OrderID" Type="integer" Nullable="false" />
+          <Property Name="Custo" Type="real" Nullable="false" />
+          <Property Name="Observacao" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="NotaFiscal" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Estoque">
+          <Key>
+            <PropertyRef Name="EstoqueID" />
+          </Key>
+          <Property Name="EstoqueID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StockID" Type="integer" Nullable="false" />
+          <Property Name="LocationID" Type="integer" Nullable="false" />
+          <Property Name="ProductID" Type="integer" Nullable="false" />
+          <Property Name="ProductQtd" Type="integer" Nullable="false" />
+          <Property Name="Date" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Fornecedor">
+          <Key>
+            <PropertyRef Name="FornecedorID" />
+          </Key>
+          <Property Name="FornecedorID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NomeFornecedor" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+          <Property Name="CEP" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Logradouro" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Numero" Type="integer" />
+          <Property Name="Complemento" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="UF" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Cidade" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Telefone" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Ramal" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Email" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Website" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="IsActive" Type="integer" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kit">
+          <Key>
+            <PropertyRef Name="KitID" />
+          </Key>
+          <Property Name="KitID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KitName" Type="integer" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KitChanged">
+          <Key>
+            <PropertyRef Name="KitChangedID" />
+          </Key>
+          <Property Name="KitChangedID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KitID" Type="integer" Nullable="false" />
+          <Property Name="TimeChanged" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KitList">
+          <Key>
+            <PropertyRef Name="KitListID" />
+          </Key>
+          <Property Name="KitListID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KitID" Type="integer" Nullable="false" />
+          <Property Name="OrderProductID" Type="integer" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MaterialSubType">
+          <Key>
+            <PropertyRef Name="SubTypeID" />
+          </Key>
+          <Property Name="SubTypeID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MaterialTypeID" Type="integer" Nullable="false" />
+          <Property Name="SubTypeName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MaterialType">
+          <Key>
+            <PropertyRef Name="TypeID" />
+          </Key>
+          <Property Name="TypeID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TypeName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MeasureUnit">
+          <Key>
+            <PropertyRef Name="MeasureUnitID" />
+          </Key>
+          <Property Name="MeasureUnitID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UnitType" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="OrderID" />
+          </Key>
+          <Property Name="OrderID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrderDescription" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="Invoice" Type="nvarchar" MaxLength="2147483647" />
+        </EntityType>
+        <EntityType Name="OrderProducts">
+          <Key>
+            <PropertyRef Name="OrderProductsID" />
+          </Key>
+          <Property Name="OrderProductsID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrderID" Type="integer" Nullable="false" />
+          <Property Name="ProductID" Type="integer" Nullable="false" />
+          <Property Name="Quantity" Type="integer" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrderProductsCheck">
+          <Key>
+            <PropertyRef Name="OrderProductsID" />
+          </Key>
+          <Property Name="OrderProductsID" Type="integer" Nullable="false" />
+          <Property Name="Quantity" Type="integer" Nullable="false" />
+          <Property Name="Price" Type="real" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PrecoProdutos">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrderProductsID" Type="integer" Nullable="false" />
+          <Property Name="Price" Type="real" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ProductChanged">
+          <Key>
+            <PropertyRef Name="ProductChangedID" />
+          </Key>
+          <Property Name="ProductChangedID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductID" Type="integer" Nullable="false" />
+          <Property Name="ChangedDate" Type="decimal" Precision="53" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Produto">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerCod" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+          <Property Name="PanalpinaCod" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+          <Property Name="MaterialType" Type="integer" Nullable="false" />
+          <Property Name="MaterialSubType" Type="integer" Nullable="false" />
+          <Property Name="Product" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+          <Property Name="MeasureUnit" Type="integer" Nullable="false" />
+          <Property Name="Comments" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+          <Property Name="ImagePath" Type="nvarchar" MaxLength="2147483647" />
+          <Property Name="CreateDate" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ProdutoFornecedor">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FornecedorID" Type="integer" Nullable="false" />
+          <Property Name="ProductID" Type="integer" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Stock">
+          <Key>
+            <PropertyRef Name="StockID" />
+          </Key>
+          <Property Name="StockID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StockName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Transferencia">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EstoqueIDFrom" Type="integer" Nullable="false" />
+          <Property Name="EstoqueIDTo" Type="integer" Nullable="false" />
+          <Property Name="Quantity" Type="integer" Nullable="false" />
+          <Property Name="Date" Type="nvarchar" MaxLength="2147483647" />
+        </EntityType>
+        <EntityContainer Name="ControleEstoqueModelStoreContainer">
+          <EntitySet Name="Allocation" EntityType="Self.Allocation" store:Type="Tables" />
+          <EntitySet Name="BaixaOrdem" EntityType="Self.BaixaOrdem" store:Type="Tables" />
+          <EntitySet Name="CustoPorItem" EntityType="Self.CustoPorItem" store:Type="Tables" />
+          <EntitySet Name="Estoque" EntityType="Self.Estoque" store:Type="Tables" />
+          <EntitySet Name="Fornecedor" EntityType="Self.Fornecedor" store:Type="Tables" />
+          <EntitySet Name="Kit" EntityType="Self.Kit" store:Type="Tables" />
+          <EntitySet Name="KitChanged" EntityType="Self.KitChanged" store:Type="Tables" />
+          <EntitySet Name="KitList" EntityType="Self.KitList" store:Type="Tables" />
+          <EntitySet Name="MaterialSubType" EntityType="Self.MaterialSubType" store:Type="Tables" />
+          <EntitySet Name="MaterialType" EntityType="Self.MaterialType" store:Type="Tables" />
+          <EntitySet Name="MeasureUnit" EntityType="Self.MeasureUnit" store:Type="Tables" />
+          <EntitySet Name="Order" EntityType="Self.Order" store:Type="Tables" />
+          <EntitySet Name="OrderProducts" EntityType="Self.OrderProducts" store:Type="Tables" />
+          <EntitySet Name="OrderProductsCheck" EntityType="Self.OrderProductsCheck" store:Type="Tables" />
+          <EntitySet Name="PrecoProdutos" EntityType="Self.PrecoProdutos" store:Type="Tables" />
+          <EntitySet Name="ProductChanged" EntityType="Self.ProductChanged" store:Type="Tables" />
+          <EntitySet Name="Produto" EntityType="Self.Produto" store:Type="Tables" />
+          <EntitySet Name="ProdutoFornecedor" EntityType="Self.ProdutoFornecedor" store:Type="Tables" />
+          <EntitySet Name="Stock" EntityType="Self.Stock" store:Type="Tables" />
+          <EntitySet Name="Transferencia" EntityType="Self.Transferencia" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ControleEstoqueModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Allocation">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StockID" Type="Int64" Nullable="false" />
+          <Property Name="AllocationName" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BaixaOrdem">
+          <Key>
+            <PropertyRef Name="BaixaOrdemID" />
+          </Key>
+          <Property Name="BaixaOrdemID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EstoqueID" Type="Int64" Nullable="false" />
+          <Property Name="Quantidade" Type="Int64" Nullable="false" />
+          <Property Name="Date" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CustoPorItem">
+          <Key>
+            <PropertyRef Name="CustoID" />
+          </Key>
+          <Property Name="CustoID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProdutoID" Type="Int64" Nullable="false" />
+          <Property Name="OrderID" Type="Int64" Nullable="false" />
+          <Property Name="Custo" Type="Double" Nullable="false" />
+          <Property Name="Observacao" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="NotaFiscal" Type="String" Nullable="false" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Estoque">
+          <Key>
+            <PropertyRef Name="EstoqueID" />
+          </Key>
+          <Property Name="EstoqueID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StockID" Type="Int64" Nullable="false" />
+          <Property Name="LocationID" Type="Int64" Nullable="false" />
+          <Property Name="ProductID" Type="Int64" Nullable="false" />
+          <Property Name="ProductQtd" Type="Int64" Nullable="false" />
+          <Property Name="Date" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Fornecedor">
+          <Key>
+            <PropertyRef Name="FornecedorID" />
+          </Key>
+          <Property Name="FornecedorID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NomeFornecedor" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CEP" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Logradouro" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Numero" Type="Int64" />
+          <Property Name="Complemento" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="UF" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Cidade" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Telefone" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Ramal" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="Website" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="IsActive" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kit">
+          <Key>
+            <PropertyRef Name="KitID" />
+          </Key>
+          <Property Name="KitID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KitName" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KitChanged">
+          <Key>
+            <PropertyRef Name="KitChangedID" />
+          </Key>
+          <Property Name="KitChangedID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KitID" Type="Int64" Nullable="false" />
+          <Property Name="TimeChanged" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="KitList">
+          <Key>
+            <PropertyRef Name="KitListID" />
+          </Key>
+          <Property Name="KitListID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KitID" Type="Int64" Nullable="false" />
+          <Property Name="OrderProductID" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MaterialSubType">
+          <Key>
+            <PropertyRef Name="SubTypeID" />
+          </Key>
+          <Property Name="SubTypeID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MaterialTypeID" Type="Int64" Nullable="false" />
+          <Property Name="SubTypeName" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MaterialType">
+          <Key>
+            <PropertyRef Name="TypeID" />
+          </Key>
+          <Property Name="TypeID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TypeName" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MeasureUnit">
+          <Key>
+            <PropertyRef Name="MeasureUnitID" />
+          </Key>
+          <Property Name="MeasureUnitID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UnitType" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="OrderID" />
+          </Key>
+          <Property Name="OrderID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderDescription" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Invoice" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrderProduct">
+          <Key>
+            <PropertyRef Name="OrderProductsID" />
+          </Key>
+          <Property Name="OrderProductsID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderID" Type="Int64" Nullable="false" />
+          <Property Name="ProductID" Type="Int64" Nullable="false" />
+          <Property Name="Quantity" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ProductChanged">
+          <Key>
+            <PropertyRef Name="ProductChangedID" />
+          </Key>
+          <Property Name="ProductChangedID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductID" Type="Int64" Nullable="false" />
+          <Property Name="ChangedDate" Type="Decimal" Precision="53" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Produto">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerCod" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PanalpinaCod" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MaterialType" Type="Int64" Nullable="false" />
+          <Property Name="MaterialSubType" Type="Int64" Nullable="false" />
+          <Property Name="Product" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="MeasureUnit" Type="Int64" Nullable="false" />
+          <Property Name="Comments" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ImagePath" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+          <Property Name="CreateDate" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ProdutoFornecedor">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FornecedorID" Type="Int64" Nullable="false" />
+          <Property Name="ProductID" Type="Int64" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Stock">
+          <Key>
+            <PropertyRef Name="StockID" />
+          </Key>
+          <Property Name="StockID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StockName" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Transferencia">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EstoqueIDFrom" Type="Int64" Nullable="false" />
+          <Property Name="EstoqueIDTo" Type="Int64" Nullable="false" />
+          <Property Name="Quantity" Type="Int64" Nullable="false" />
+          <Property Name="Date" Type="String" MaxLength="2147483647" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="ControleEstoqueEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Allocations" EntityType="Self.Allocation" />
+          <EntitySet Name="BaixaOrdems" EntityType="Self.BaixaOrdem" />
+          <EntitySet Name="CustoPorItems" EntityType="Self.CustoPorItem" />
+          <EntitySet Name="Estoques" EntityType="Self.Estoque" />
+          <EntitySet Name="Fornecedors" EntityType="Self.Fornecedor" />
+          <EntitySet Name="Kits" EntityType="Self.Kit" />
+          <EntitySet Name="KitChangeds" EntityType="Self.KitChanged" />
+          <EntitySet Name="KitLists" EntityType="Self.KitList" />
+          <EntitySet Name="MaterialSubTypes" EntityType="Self.MaterialSubType" />
+          <EntitySet Name="MaterialTypes" EntityType="Self.MaterialType" />
+          <EntitySet Name="MeasureUnits" EntityType="Self.MeasureUnit" />
+          <EntitySet Name="Orders" EntityType="Self.Order" />
+          <EntitySet Name="OrderProducts" EntityType="Self.OrderProduct" />
+          <EntitySet Name="ProductChangeds" EntityType="Self.ProductChanged" />
+          <EntitySet Name="Produtoes" EntityType="Self.Produto" />
+          <EntitySet Name="ProdutoFornecedors" EntityType="Self.ProdutoFornecedor" />
+          <EntitySet Name="Stocks" EntityType="Self.Stock" />
+          <EntitySet Name="Transferencias" EntityType="Self.Transferencia" />
+          <EntitySet Name="PrecoProdutos" EntityType="ControleEstoqueModel.PrecoProduto" />
+          <EntitySet Name="OrderProductsChecks" EntityType="ControleEstoqueModel.OrderProductsCheck" />
+        </EntityContainer>
+        <EntityType Name="PrecoProduto">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderProductsID" Type="Int64" Nullable="false" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrderProductsCheck">
+          <Key>
+            <PropertyRef Name="OrderProductsID" />
+          </Key>
+          <Property Name="OrderProductsID" Type="Int64" Nullable="false" />
+          <Property Name="Quantity" Type="Int64" Nullable="false" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ControleEstoqueModelStoreContainer" CdmEntityContainer="ControleEstoqueEntities1">
+          <EntitySetMapping Name="Allocations">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Allocation">
+              <MappingFragment StoreEntitySet="Allocation">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+                <ScalarProperty Name="AllocationName" ColumnName="AllocationName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BaixaOrdems">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.BaixaOrdem">
+              <MappingFragment StoreEntitySet="BaixaOrdem">
+                <ScalarProperty Name="BaixaOrdemID" ColumnName="BaixaOrdemID" />
+                <ScalarProperty Name="EstoqueID" ColumnName="EstoqueID" />
+                <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CustoPorItems">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.CustoPorItem">
+              <MappingFragment StoreEntitySet="CustoPorItem">
+                <ScalarProperty Name="NotaFiscal" ColumnName="NotaFiscal" />
+                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+                <ScalarProperty Name="CustoID" ColumnName="CustoID" />
+                <ScalarProperty Name="ProdutoID" ColumnName="ProdutoID" />
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="Custo" ColumnName="Custo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Estoques">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Estoque">
+              <MappingFragment StoreEntitySet="Estoque">
+                <ScalarProperty Name="EstoqueID" ColumnName="EstoqueID" />
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+                <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ProductQtd" ColumnName="ProductQtd" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fornecedors">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Fornecedor">
+              <MappingFragment StoreEntitySet="Fornecedor">
+                <ScalarProperty Name="FornecedorID" ColumnName="FornecedorID" />
+                <ScalarProperty Name="NomeFornecedor" ColumnName="NomeFornecedor" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="Logradouro" ColumnName="Logradouro" />
+                <ScalarProperty Name="Numero" ColumnName="Numero" />
+                <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+                <ScalarProperty Name="UF" ColumnName="UF" />
+                <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+                <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+                <ScalarProperty Name="Ramal" ColumnName="Ramal" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Website" ColumnName="Website" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kits">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Kit">
+              <MappingFragment StoreEntitySet="Kit">
+                <ScalarProperty Name="KitID" ColumnName="KitID" />
+                <ScalarProperty Name="KitName" ColumnName="KitName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KitChangeds">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.KitChanged">
+              <MappingFragment StoreEntitySet="KitChanged">
+                <ScalarProperty Name="KitChangedID" ColumnName="KitChangedID" />
+                <ScalarProperty Name="KitID" ColumnName="KitID" />
+                <ScalarProperty Name="TimeChanged" ColumnName="TimeChanged" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KitLists">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.KitList">
+              <MappingFragment StoreEntitySet="KitList">
+                <ScalarProperty Name="KitListID" ColumnName="KitListID" />
+                <ScalarProperty Name="KitID" ColumnName="KitID" />
+                <ScalarProperty Name="OrderProductID" ColumnName="OrderProductID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MaterialSubTypes">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.MaterialSubType">
+              <MappingFragment StoreEntitySet="MaterialSubType">
+                <ScalarProperty Name="SubTypeID" ColumnName="SubTypeID" />
+                <ScalarProperty Name="MaterialTypeID" ColumnName="MaterialTypeID" />
+                <ScalarProperty Name="SubTypeName" ColumnName="SubTypeName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MaterialTypes">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.MaterialType">
+              <MappingFragment StoreEntitySet="MaterialType">
+                <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+                <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MeasureUnits">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.MeasureUnit">
+              <MappingFragment StoreEntitySet="MeasureUnit">
+                <ScalarProperty Name="MeasureUnitID" ColumnName="MeasureUnitID" />
+                <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Order">
+              <MappingFragment StoreEntitySet="Order">
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="OrderDescription" ColumnName="OrderDescription" />
+                <ScalarProperty Name="Invoice" ColumnName="Invoice" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderProducts">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.OrderProduct">
+              <MappingFragment StoreEntitySet="OrderProducts">
+                <ScalarProperty Name="OrderProductsID" ColumnName="OrderProductsID" />
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductChangeds">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.ProductChanged">
+              <MappingFragment StoreEntitySet="ProductChanged">
+                <ScalarProperty Name="ProductChangedID" ColumnName="ProductChangedID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Produtoes">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Produto">
+              <MappingFragment StoreEntitySet="Produto">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="CustomerCod" ColumnName="CustomerCod" />
+                <ScalarProperty Name="PanalpinaCod" ColumnName="PanalpinaCod" />
+                <ScalarProperty Name="MaterialType" ColumnName="MaterialType" />
+                <ScalarProperty Name="MaterialSubType" ColumnName="MaterialSubType" />
+                <ScalarProperty Name="Product" ColumnName="Product" />
+                <ScalarProperty Name="MeasureUnit" ColumnName="MeasureUnit" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProdutoFornecedors">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.ProdutoFornecedor">
+              <MappingFragment StoreEntitySet="ProdutoFornecedor">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FornecedorID" ColumnName="FornecedorID" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Stocks">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Stock">
+              <MappingFragment StoreEntitySet="Stock">
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+                <ScalarProperty Name="StockName" ColumnName="StockName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Transferencias">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.Transferencia">
+              <MappingFragment StoreEntitySet="Transferencia">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="EstoqueIDFrom" ColumnName="EstoqueIDFrom" />
+                <ScalarProperty Name="EstoqueIDTo" ColumnName="EstoqueIDTo" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrecoProdutos">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.PrecoProduto">
+              <MappingFragment StoreEntitySet="PrecoProdutos">
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="OrderProductsID" ColumnName="OrderProductsID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrderProductsChecks">
+            <EntityTypeMapping TypeName="ControleEstoqueModel.OrderProductsCheck">
+              <MappingFragment StoreEntitySet="OrderProductsCheck">
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="OrderProductsID" ColumnName="OrderProductsID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

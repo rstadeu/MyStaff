@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OrderProducts>
+  <OrderProductDesc>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>1</ProductId>
+      <Products>CONECTOR AGULHA 16 MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>2</ProductId>
+      <Products>CONECTOR AGULHA 25 MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>3</ProductId>
+      <Products>CONECTOR AGULHA 16 MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>4</ProductId>
+      <Products>CONECTOR AGULHA 10 MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>6</ProductId>
+      <Products>CONECTOR AGULHA 6 MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>7</ProductId>
+      <Products>CONECTOR OLHAL 16 MM ( FURO 8MM)</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>8</ProductId>
+      <Products>CONECTOR OLHAL 16 MM (FURO MENOR )</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>300</ProductQtd>
+      <ProductId>9</ProductId>
+      <Products>TEMINAL RJ 45 BLINDADO </Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>30</ProductQtd>
+      <ProductId>10</ProductId>
+      <Products>CAPA RJ45 PRETO E AZUL</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>3</ProductQtd>
+      <ProductId>11</ProductId>
+      <Products>FITA ISOLANTE DE ALTA FUSAO</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>3</ProductQtd>
+      <ProductId>12</ProductId>
+      <Products>FITA ISOLANTE</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>13</ProductId>
+      <Products>FITA ISOLANTE VERMELHA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>14</ProductId>
+      <Products>FITA ISOLANTE VERDE</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>15</ProductId>
+      <Products>FITA ISOLANTE AZUL</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>16</ProductId>
+      <Products>FITA ISOLANTE CINZA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>17</ProductId>
+      <Products>FITA ISOLANTE AMARELA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>18</ProductId>
+      <Products>FITA ISOLANTE BRANCA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>10</ProductQtd>
+      <ProductId>19</ProductId>
+      <Products>ESPUMA EXPANSIVA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>30</ProductQtd>
+      <ProductId>20</ProductId>
+      <Products>BOX RETO 1 POLEGADA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>10</ProductQtd>
+      <ProductId>22</ProductId>
+      <Products>BOX RETO 2 POLEGADAS</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>20</ProductQtd>
+      <ProductId>23</ProductId>
+      <Products>TERMORETRATIL 25MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>40</ProductQtd>
+      <ProductId>26</ProductId>
+      <Products>BARRA FCI</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>20</ProductQtd>
+      <ProductId>27</ProductId>
+      <Products>DISJUNTOR 63A</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>20</ProductQtd>
+      <ProductId>30</ProductId>
+      <Products>TERMORETRATIL 18.6 / 6MM</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>2</ProductQtd>
+      <ProductId>35</ProductId>
+      <Products>BALUN UNITARIO G-703 - 1XF RJ45 E BNC FÊMEA</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>30</ProductQtd>
+      <ProductId>33</ProductId>
+      <Products>CONECTOR BNC 0.3 1.8</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>300</ProductQtd>
+      <ProductId>36</ProductId>
+      <Products>CABO COAXIAL 2YCY 0.4  2.5 PRETO</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>37</ProductId>
+      <Products>PORCA HEXAGONAL M10 A4</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>38</ProductId>
+      <Products>ARRUELA DE PRESSÃO M10 A4</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>30</ProductQtd>
+      <ProductId>39</ProductId>
+      <Products>CHUMBADOR CBA M10*15</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>41</ProductId>
+      <Products>CONECTOR FERRADURA 25 MM M8</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>30</ProductQtd>
+      <ProductId>42</ProductId>
+      <Products>DUTOS FLEXÍVEIS(TUBO SELADO 1 POL - ALMA DE AÇO COM ACESSORIOS DE FIXAÇÃO</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>2</ProductQtd>
+      <ProductId>43</ProductId>
+      <Products>ETIQUETA DE LAN PATCH PANEL (SUBSTITUIDO POR BROTHER) </Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>200</ProductQtd>
+      <ProductId>45</ProductId>
+      <Products>PORCA GAIOLA M5</Products>
+    </OrderProduct>
+    <OrderProduct>
+      <OrderId>1</OrderId>
+      <ProductQtd>100</ProductQtd>
+      <ProductId>46</ProductId>
+      <Products>ARRUELA LISA M6</Products>
+    </OrderProduct>
+  </OrderProductDesc>
+</OrderProducts>

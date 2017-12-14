@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Produto>
+  <Products>
+    <ProductId>1</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>CONECTOR AGULHA 16 MM</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>PARA ALIMENTAÇÃO FSMF </Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR AGULHA 16 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>2</ProductId>
+    <CodigoCliente>2</CodigoCliente>
+    <CodigoPanalpina>2</CodigoPanalpina>
+    <Produto>CONECTOR AGULHA 25 MM</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>ALIMENTAÇÃO RFM</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR AGULHA 25 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>3</ProductId>
+    <CodigoCliente>3</CodigoCliente>
+    <CodigoPanalpina>3</CodigoPanalpina>
+    <Produto>CONECTOR AGULHA 16 MM</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>ALIMENTAÇÃO RFM</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR AGULHA 16 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>4</ProductId>
+    <CodigoCliente>3</CodigoCliente>
+    <CodigoPanalpina>3</CodigoPanalpina>
+    <Produto>CONECTOR AGULHA 10 MM</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>ALIMENTAÇÃO RFM</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR AGULHA 10 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>5</ProductId>
+    <CodigoCliente>4</CodigoCliente>
+    <CodigoPanalpina>4</CodigoPanalpina>
+    <Produto>CONECTOR AGULHA 10 MM</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>ALIMENTAÇÃO RFM</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR AGULHA 10 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>6</ProductId>
+    <CodigoCliente>4</CodigoCliente>
+    <CodigoPanalpina>4</CodigoPanalpina>
+    <Produto>CONECTOR AGULHA 6 MM</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>TERRA RFM</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR AGULHA 6 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>7</ProductId>
+    <CodigoCliente>5</CodigoCliente>
+    <CodigoPanalpina>5</CodigoPanalpina>
+    <Produto>CONECTOR OLHAL 16 MM ( FURO 8MM)</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>( FURO 8MM)</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR OLHAL 16 MM ( FURO 8MM).jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>8</ProductId>
+    <CodigoCliente>6</CodigoCliente>
+    <CodigoPanalpina>6</CodigoPanalpina>
+    <Produto>CONECTOR OLHAL 16 MM (FURO MENOR )</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>(FURO MENOR )</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR OLHAL 16 MM (FURO MENOR ).jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>9</ProductId>
+    <CodigoCliente>6</CodigoCliente>
+    <CodigoPanalpina>6</CodigoPanalpina>
+    <Produto>TEMINAL RJ 45 BLINDADO </Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>PARA SOLDA</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TEMINAL RJ 45 BLINDADO .jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>10</ProductId>
+    <CodigoCliente>8</CodigoCliente>
+    <CodigoPanalpina>8</CodigoPanalpina>
+    <Produto>CAPA RJ45 PRETO E AZUL</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>CAPA</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CAPA RJ45 PRETO E AZUL.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>11</ProductId>
+    <CodigoCliente>9</CodigoCliente>
+    <CodigoPanalpina>9</CodigoPanalpina>
+    <Produto>FITA ISOLANTE DE ALTA FUSAO</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE DE ALTA FUSAO.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>12</ProductId>
+    <CodigoCliente>10</CodigoCliente>
+    <CodigoPanalpina>10</CodigoPanalpina>
+    <Produto>FITA ISOLANTE</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>13</ProductId>
+    <CodigoCliente>11</CodigoCliente>
+    <CodigoPanalpina>11</CodigoPanalpina>
+    <Produto>FITA ISOLANTE VERMELHA</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE VERMELHA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>14</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>FITA ISOLANTE VERDE</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE VERDE.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>15</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>FITA ISOLANTE AZUL</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao>IMAGEM MERAMENTE ILUSTRATIVA</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE AZUL.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>16</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>FITA ISOLANTE CINZA</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE CINZA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>17</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>FITA ISOLANTE AMARELA</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE AMARELA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>18</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>FITA ISOLANTE BRANCA</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA ISOLANTE BRANCA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>19</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>ESPUMA EXPANSIVA</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_ESPUMA EXPANSIVA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>20</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>BOX RETO 1"</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_BOX RETO 1".jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>21</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>BOX RETO 1 POLEGADA</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_BOX RETO 1 POLEGADA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>22</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>BOX RETO 2 POLEGADAS</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_BOX RETO 2 POLEGADAS.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>23</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMORETRATIL 25MM</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMORETRATIL 25MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>24</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMORETRATIL 16MM</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMORETRATIL 16MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>25</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMORETRATIL 10MM</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMORETRATIL 10MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>26</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>BARRA FCI</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_BARRA FCI.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>27</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>DISJUNTOR 63A</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_DISJUNTOR 63A.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>28</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>SEAL TUBE 1 POL</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_SEAL TUBE 1 POL.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>29</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMINAL FERRADURA 16MM</Produto>
+    <EstoqueMinimo>25</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMINAL FERRADURA 16MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>30</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMORETRATIL 18.6 / 6MM</Produto>
+    <EstoqueMinimo>10</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMORETRATIL 18.6 / 6MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>31</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMORETRATIL 18.6_6MM</Produto>
+    <EstoqueMinimo>10</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMORETRATIL 18.6_6MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>32</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>FITA HELLERMAN 2,5X93 MM PRETA</Produto>
+    <EstoqueMinimo>100</EstoqueMinimo>
+    <Descricao>FITA HELLERMAN 2,5X93 MM PRETA COM 100 PEÇAS</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_FITA HELLERMAN 2,5X93 MM PRETA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>33</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>CONECTOR BNC 0.3 1.8</Produto>
+    <EstoqueMinimo>20</EstoqueMinimo>
+    <Descricao>(0.3/1.8 CABLE)</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR BNC 0.3 1.8.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>34</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>TERMO-RETRATIL 3.2 0,6 MM PRETA 1000 MM</Produto>
+    <EstoqueMinimo>20</EstoqueMinimo>
+    <Descricao>TERMO-RETRATIL 3,2/0,6 MM PRETA 1000 MM</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_TERMO-RETRATIL 3.2 0,6 MM PRETA 1000 MM.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>35</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>BALUN UNITARIO G-703 - 1XF RJ45 E BNC FÊMEA</Produto>
+    <EstoqueMinimo>20</EstoqueMinimo>
+    <Descricao>BALUN UNITARIO G-703 - 1XF RJ45 E BNC FÊMEA</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_BALUN UNITARIO G-703 - 1XF RJ45 E BNC FÊMEA.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>36</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>CABO COAXIAL 2YCY 0.4  2.5 PRETO</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>CABO COAXIAL 2YCY 0.4 / 2.5 PRETO</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CABO COAXIAL 2YCY 0.4  2.5 PRETO.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>37</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>PORCA HEXAGONAL M10 A4</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>PORCA HEXAGONAL M10 A4</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_PORCA HEXAGONAL M10 A4.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>38</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>ARRUELA DE PRESSÃO M10 A4</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>ARRUELA DE PRESSÃO M10 A4</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_ARRUELA DE PRESSÃO M10 A4.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>39</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>CHUMBADOR CBA M10*15</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>CHUMBADOR CBA M10*15</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CHUMBADOR CBA M10*15.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>40</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>CHUMBADOR CBA M10_15</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>CHUMBADOR CBA M10*15</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CHUMBADOR CBA M10_15.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>41</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>CONECTOR FERRADURA 25 MM M8</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>CONECTOR FERRADURA 25 MM / M8</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_CONECTOR FERRADURA 25 MM M8.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>42</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>DUTOS FLEXÍVEIS(TUBO SELADO 1 POL - ALMA DE AÇO COM ACESSORIOS DE FIXAÇÃO</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>DUTOS FLEXÍVEIS(TUBO SELADO 1" - ALMA DE AÇO COM ACESSORIOS DE FIXAÇÃO</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_DUTOS FLEXÍVEIS(TUBO SELADO 1 POL - ALMA DE AÇO COM ACESSORIOS DE FIXAÇÃO.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>43</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>ETIQUETA DE LAN PATCH PANEL (SUBSTITUIDO POR BROTHER) </Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>ETIQUETA DE LAN PATCH PANEL (SUBSTITUIDO POR BROTHER) </Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_ETIQUETA DE LAN PATCH PANEL (SUBSTITUIDO POR BROTHER) .jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>44</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>PARAFUSO FENDA CRUZ M5X12</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>PARAFUSO FENDA CRUZ M5X12</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_PARAFUSO FENDA CRUZ M5X12.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>45</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>PORCA GAIOLA M5</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>PORCA GAIOLA M5</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_PORCA GAIOLA M5.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>46</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>ARRUELA LISA M6</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao>ARRUELA LISA M6</Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_ARRUELA LISA M6.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>47</ProductId>
+    <CodigoCliente>1</CodigoCliente>
+    <CodigoPanalpina>1</CodigoPanalpina>
+    <Produto>ETIQUETA DE CABO DE REDE (BRADY 511)- SUBSTITUIDO POR BROTHER</Produto>
+    <EstoqueMinimo>200</EstoqueMinimo>
+    <Descricao></Descricao>
+    <CaminhoImagem>C:\Users\roberto.souza\Documents\ProjetoControleDe Estoque\ControledeEstoque\bin\Release\XMLData\Image\ImageFile_Product_ETIQUETA DE CABO DE REDE (BRADY 511)- SUBSTITUIDO POR BROTHER.jpg</CaminhoImagem>
+    <Fornecedor01>1</Fornecedor01>
+    <Fornecedor02>1</Fornecedor02>
+    <Fornecedor03>1</Fornecedor03>
+  </Products>
+  <Products>
+    <ProductId>48</ProductId>
+    <CodigoCliente />
+    <CodigoPanalpina />
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto />
+    <Unit>0</Unit>
+    <Descricao />
+    <CaminhoImagem />
+  </Products>
+  <Products>
+    <ProductId>49</ProductId>
+    <CodigoCliente />
+    <CodigoPanalpina />
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto />
+    <Unit>0</Unit>
+    <Descricao />
+    <CaminhoImagem />
+  </Products>
+  <Products>
+    <ProductId>50</ProductId>
+    <CodigoCliente />
+    <CodigoPanalpina />
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto />
+    <Unit>0</Unit>
+    <Descricao />
+    <CaminhoImagem />
+  </Products>
+  <Products>
+    <ProductId>51</ProductId>
+    <CodigoCliente />
+    <CodigoPanalpina />
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto />
+    <Unit>0</Unit>
+    <Descricao />
+    <CaminhoImagem />
+  </Products>
+  <Products>
+    <ProductId>52</ProductId>
+    <CodigoCliente>NK001</CodigoCliente>
+    <CodigoPanalpina>PAFCI001</CodigoPanalpina>
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto>BARRAMENTO FCI</Produto>
+    <Unit>0</Unit>
+    <Descricao>BARRAMENTO DE ATERRAMENTO PARA TORRE FCI</Descricao>
+    <CaminhoImagem />
+  </Products>
+  <Products>
+    <ProductId>53</ProductId>
+    <CodigoCliente />
+    <CodigoPanalpina />
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto />
+    <Unit>0</Unit>
+    <Descricao />
+    <CaminhoImagem />
+  </Products>
+  <Products>
+    <ProductId>54</ProductId>
+    <CodigoCliente />
+    <CodigoPanalpina />
+    <MaterialType>0</MaterialType>
+    <MaterialSubType>0</MaterialSubType>
+    <Produto />
+    <Unit>0</Unit>
+    <Descricao />
+    <CaminhoImagem />
+  </Products>
+</Produto>

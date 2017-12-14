@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ControleEstoqueModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=C:\Users\Roberto\Documents\ControleEstoque.db" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Allocation">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StockID" Type="integer" Nullable="false" />
+    <Property Name="AllocationName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BaixaOrdem">
+    <Key>
+      <PropertyRef Name="BaixaOrdemID" />
+    </Key>
+    <Property Name="BaixaOrdemID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EstoqueID" Type="integer" Nullable="false" />
+    <Property Name="Quantidade" Type="integer" Nullable="false" />
+    <Property Name="Date" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CustoPorItem">
+    <Key>
+      <PropertyRef Name="CustoID" />
+    </Key>
+    <Property Name="CustoID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProdutoID" Type="integer" Nullable="false" />
+    <Property Name="OrderID" Type="integer" Nullable="false" />
+    <Property Name="Custo" Type="real" Nullable="false" />
+    <Property Name="Observacao" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="NotaFiscal" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Estoque">
+    <Key>
+      <PropertyRef Name="EstoqueID" />
+    </Key>
+    <Property Name="EstoqueID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StockID" Type="integer" Nullable="false" />
+    <Property Name="LocationID" Type="integer" Nullable="false" />
+    <Property Name="ProductID" Type="integer" Nullable="false" />
+    <Property Name="ProductQtd" Type="integer" Nullable="false" />
+    <Property Name="Date" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Fornecedor">
+    <Key>
+      <PropertyRef Name="FornecedorID" />
+    </Key>
+    <Property Name="FornecedorID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomeFornecedor" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="CEP" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Logradouro" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Numero" Type="integer" />
+    <Property Name="Complemento" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="UF" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Cidade" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Telefone" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Ramal" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Email" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="Website" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="IsActive" Type="integer" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kit">
+    <Key>
+      <PropertyRef Name="KitID" />
+    </Key>
+    <Property Name="KitID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KitName" Type="integer" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KitChanged">
+    <Key>
+      <PropertyRef Name="KitChangedID" />
+    </Key>
+    <Property Name="KitChangedID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KitID" Type="integer" Nullable="false" />
+    <Property Name="TimeChanged" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KitList">
+    <Key>
+      <PropertyRef Name="KitListID" />
+    </Key>
+    <Property Name="KitListID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KitID" Type="integer" Nullable="false" />
+    <Property Name="OrderProductID" Type="integer" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MaterialSubType">
+    <Key>
+      <PropertyRef Name="SubTypeID" />
+    </Key>
+    <Property Name="SubTypeID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaterialTypeID" Type="integer" Nullable="false" />
+    <Property Name="SubTypeName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MaterialType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MeasureUnit">
+    <Key>
+      <PropertyRef Name="MeasureUnitID" />
+    </Key>
+    <Property Name="MeasureUnitID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UnitType" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderDescription" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="Invoice" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderProducts">
+    <Key>
+      <PropertyRef Name="OrderProductsID" />
+    </Key>
+    <Property Name="OrderProductsID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderID" Type="integer" Nullable="false" />
+    <Property Name="ProductID" Type="integer" Nullable="false" />
+    <Property Name="Quantity" Type="integer" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PrecoProdutos">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderProductsID" Type="integer" Nullable="false" />
+    <Property Name="Price" Type="real" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductChanged">
+    <Key>
+      <PropertyRef Name="ProductChangedID" />
+    </Key>
+    <Property Name="ProductChangedID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductID" Type="integer" Nullable="false" />
+    <Property Name="ChangedDate" Type="decimal" Precision="53" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerCod" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="PanalpinaCod" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="MaterialType" Type="integer" Nullable="false" />
+    <Property Name="MaterialSubType" Type="integer" Nullable="false" />
+    <Property Name="Product" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="MeasureUnit" Type="integer" Nullable="false" />
+    <Property Name="Comments" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="2147483647" />
+    <Property Name="CreateDate" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProdutoFornecedor">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FornecedorID" Type="integer" Nullable="false" />
+    <Property Name="ProductID" Type="integer" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stock">
+    <Key>
+      <PropertyRef Name="StockID" />
+    </Key>
+    <Property Name="StockID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StockName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transferencia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="integer" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EstoqueIDFrom" Type="integer" Nullable="false" />
+    <Property Name="EstoqueIDTo" Type="integer" Nullable="false" />
+    <Property Name="Quantity" Type="integer" Nullable="false" />
+    <Property Name="Date" Type="nvarchar" MaxLength="2147483647" />
+  </EntityType>
+  <EntityContainer Name="ControleEstoqueModelStoreContainer">
+    <EntitySet Name="Allocation" EntityType="Self.Allocation" store:Type="Tables" />
+    <EntitySet Name="BaixaOrdem" EntityType="Self.BaixaOrdem" store:Type="Tables" />
+    <EntitySet Name="CustoPorItem" EntityType="Self.CustoPorItem" store:Type="Tables" />
+    <EntitySet Name="Estoque" EntityType="Self.Estoque" store:Type="Tables" />
+    <EntitySet Name="Fornecedor" EntityType="Self.Fornecedor" store:Type="Tables" />
+    <EntitySet Name="Kit" EntityType="Self.Kit" store:Type="Tables" />
+    <EntitySet Name="KitChanged" EntityType="Self.KitChanged" store:Type="Tables" />
+    <EntitySet Name="KitList" EntityType="Self.KitList" store:Type="Tables" />
+    <EntitySet Name="MaterialSubType" EntityType="Self.MaterialSubType" store:Type="Tables" />
+    <EntitySet Name="MaterialType" EntityType="Self.MaterialType" store:Type="Tables" />
+    <EntitySet Name="MeasureUnit" EntityType="Self.MeasureUnit" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" store:Type="Tables" />
+    <EntitySet Name="OrderProducts" EntityType="Self.OrderProducts" store:Type="Tables" />
+    <EntitySet Name="PrecoProdutos" EntityType="Self.PrecoProdutos" store:Type="Tables" />
+    <EntitySet Name="ProductChanged" EntityType="Self.ProductChanged" store:Type="Tables" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" store:Type="Tables" />
+    <EntitySet Name="ProdutoFornecedor" EntityType="Self.ProdutoFornecedor" store:Type="Tables" />
+    <EntitySet Name="Stock" EntityType="Self.Stock" store:Type="Tables" />
+    <EntitySet Name="Transferencia" EntityType="Self.Transferencia" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

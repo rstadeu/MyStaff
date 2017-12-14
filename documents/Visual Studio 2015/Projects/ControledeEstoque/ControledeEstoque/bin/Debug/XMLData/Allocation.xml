@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Allocation>
+  <Allocations>
+    <AllocationId>1</AllocationId>
+    <StockId>3</StockId>
+    <AllocationName>WAREHOUSE01</AllocationName>
+  </Allocations>
+  <Allocations>
+    <AllocationId>2</AllocationId>
+    <StockId>3</StockId>
+    <AllocationName>CAR01</AllocationName>
+  </Allocations>
+  <Allocations>
+    <AllocationId>3</AllocationId>
+    <StockId>3</StockId>
+    <AllocationName>CAR02</AllocationName>
+  </Allocations>
+  <Allocations>
+    <AllocationId>4</AllocationId>
+    <StockId>3</StockId>
+    <AllocationName>CAR03</AllocationName>
+  </Allocations>
+  <Allocations>
+    <AllocationId>5</AllocationId>
+    <StockId>1</StockId>
+    <AllocationName>WAREHOUSE01</AllocationName>
+  </Allocations>
+  <Allocations>
+    <AllocationId>6</AllocationId>
+    <StockId>2</StockId>
+    <AllocationName>WAREHOUSE01</AllocationName>
+  </Allocations>
+  <Allocations>
+    <AllocationId>7</AllocationId>
+    <StockId>4</StockId>
+    <AllocationName>ROBERTO</AllocationName>
+  </Allocations>
+</Allocation>

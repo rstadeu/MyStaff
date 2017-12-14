@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Estoque>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>1</ProductId>
+      <ProductQtd>75</ProductQtd>
+      <ProductName>CONECTOR AGULHA 16 MM</ProductName>
+      <Date>2017-03-13T15:17:06.3219433Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>2</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR AGULHA 25 MM</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>3</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR AGULHA 16 MM</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>4</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR AGULHA 10 MM</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>6</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR AGULHA 6 MM</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>7</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR OLHAL 16 MM ( FURO 8MM)</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>8</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR OLHAL 16 MM (FURO MENOR )</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>9</ProductId>
+      <ProductQtd>300</ProductQtd>
+      <ProductName>TEMINAL RJ 45 BLINDADO </ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>10</ProductId>
+      <ProductQtd>30</ProductQtd>
+      <ProductName>CAPA RJ45 PRETO E AZUL</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>11</ProductId>
+      <ProductQtd>3</ProductQtd>
+      <ProductName>FITA ISOLANTE DE ALTA FUSAO</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>12</ProductId>
+      <ProductQtd>3</ProductQtd>
+      <ProductName>FITA ISOLANTE</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>13</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>FITA ISOLANTE VERMELHA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>14</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>FITA ISOLANTE VERDE</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>15</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>FITA ISOLANTE AZUL</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>16</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>FITA ISOLANTE CINZA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>17</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>FITA ISOLANTE AMARELA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>18</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>FITA ISOLANTE BRANCA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>19</ProductId>
+      <ProductQtd>10</ProductQtd>
+      <ProductName>ESPUMA EXPANSIVA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>20</ProductId>
+      <ProductQtd>30</ProductQtd>
+      <ProductName>BOX RETO 1 POLEGADA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>22</ProductId>
+      <ProductQtd>10</ProductQtd>
+      <ProductName>BOX RETO 2 POLEGADAS</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>23</ProductId>
+      <ProductQtd>20</ProductQtd>
+      <ProductName>TERMORETRATIL 25MM</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>26</ProductId>
+      <ProductQtd>40</ProductQtd>
+      <ProductName>BARRA FCI</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>27</ProductId>
+      <ProductQtd>15</ProductQtd>
+      <ProductName>DISJUNTOR 63A</ProductName>
+      <Date>2017-03-13T15:12:10.6124931Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>30</ProductId>
+      <ProductQtd>20</ProductQtd>
+      <ProductName>TERMORETRATIL 18.6 / 6MM</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>35</ProductId>
+      <ProductQtd>2</ProductQtd>
+      <ProductName>BALUN UNITARIO G-703 - 1XF RJ45 E BNC FÊMEA</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>33</ProductId>
+      <ProductQtd>30</ProductQtd>
+      <ProductName>CONECTOR BNC 0.3 1.8</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>36</ProductId>
+      <ProductQtd>300</ProductQtd>
+      <ProductName>CABO COAXIAL 2YCY 0.4  2.5 PRETO</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>37</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>PORCA HEXAGONAL M10 A4</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>38</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>ARRUELA DE PRESSÃO M10 A4</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>39</ProductId>
+      <ProductQtd>30</ProductQtd>
+      <ProductName>CHUMBADOR CBA M10*15</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>41</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>CONECTOR FERRADURA 25 MM M8</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>42</ProductId>
+      <ProductQtd>30</ProductQtd>
+      <ProductName>DUTOS FLEXÍVEIS(TUBO SELADO 1 POL - ALMA DE AÇO COM ACESSORIOS DE FIXAÇÃO</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>43</ProductId>
+      <ProductQtd>2</ProductQtd>
+      <ProductName>ETIQUETA DE LAN PATCH PANEL (SUBSTITUIDO POR BROTHER) </ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>45</ProductId>
+      <ProductQtd>200</ProductQtd>
+      <ProductName>PORCA GAIOLA M5</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>1</EstoqueID>
+      <StockId>2</StockId>
+      <LocationId>6</LocationId>
+      <ProductId>46</ProductId>
+      <ProductQtd>100</ProductQtd>
+      <ProductName>ARRUELA LISA M6</ProductName>
+      <Date>2017-02-24T17:33:20.2306122Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>2</EstoqueID>
+      <StockId>1</StockId>
+      <LocationId>5</LocationId>
+      <ProductId>27</ProductId>
+      <ProductQtd>4</ProductQtd>
+      <ProductName>DISJUNTOR 63A</ProductName>
+      <Date>2017-03-13T15:14:50.4931989Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>3</EstoqueID>
+      <StockId>1</StockId>
+      <LocationId>5</LocationId>
+      <ProductId>1</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>CONECTOR AGULHA 16 MM</ProductName>
+      <Date>2017-03-13T15:17:52.7185989Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>4</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>37</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>PORCA HEXAGONAL M10 A4</ProductName>
+      <Date>2017-03-13T18:00:25.0416998Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>4</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>38</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>ARRUELA DE PRESSÃO M10 A4</ProductName>
+      <Date>2017-03-13T18:00:34.1030718Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>5</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>2</LocationId>
+      <ProductId>10</ProductId>
+      <ProductQtd>50</ProductQtd>
+      <ProductName>CAPA RJ45 PRETO E AZUL</ProductName>
+      <Date>2017-03-13T15:22:26.8591393Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>6</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>4</LocationId>
+      <ProductId>10</ProductId>
+      <ProductQtd>50</ProductQtd>
+      <ProductName>CAPA RJ45 PRETO E AZUL</ProductName>
+      <Date>2017-03-13T15:23:00.9990352Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>6</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>4</LocationId>
+      <ProductId>7</ProductId>
+      <ProductQtd>90</ProductQtd>
+      <ProductName>CONECTOR OLHAL 16 MM ( FURO 8MM)</ProductName>
+      <Date>2017-03-13T15:23:00.9990352Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>6</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>4</LocationId>
+      <ProductId>19</ProductId>
+      <ProductQtd>4</ProductQtd>
+      <ProductName>ESPUMA EXPANSIVA</ProductName>
+      <Date>2017-03-13T15:23:00.9990352Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>6</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>4</LocationId>
+      <ProductId>34</ProductId>
+      <ProductQtd>20</ProductQtd>
+      <ProductName>TERMO-RETRATIL 3.2 0,6 MM PRETA 1000 MM</ProductName>
+      <Date>2017-03-13T15:23:00.9990352Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>1</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>CONECTOR AGULHA 16 MM</ProductName>
+      <Date>2017-03-13T18:00:45.4378077Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>7</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>CONECTOR OLHAL 16 MM ( FURO 8MM)</ProductName>
+      <Date>2017-03-13T18:00:57.1383235Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>11</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE DE ALTA FUSAO</ProductName>
+      <Date>2017-03-13T18:01:29.5594113Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>12</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE</ProductName>
+      <Date>2017-03-13T18:01:52.7648389Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>13</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE VERMELHA</ProductName>
+      <Date>2017-03-13T18:02:02.1617901Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>14</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE VERDE</ProductName>
+      <Date>2017-03-13T18:02:09.9610271Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>15</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE AZUL</ProductName>
+      <Date>2017-03-13T18:02:15.8584549Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>16</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE CINZA</ProductName>
+      <Date>2017-03-13T18:02:23.2110977Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>17</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE AMARELA</ProductName>
+      <Date>2017-03-13T18:02:28.2654613Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>18</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE BRANCA</ProductName>
+      <Date>2017-03-13T18:02:33.6571546Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>19</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>ESPUMA EXPANSIVA</ProductName>
+      <Date>2017-03-13T18:02:41.5084442Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>23</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>TERMORETRATIL 25MM</ProductName>
+      <Date>2017-03-13T18:02:48.3960382Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>24</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>TERMORETRATIL 16MM</ProductName>
+      <Date>2017-03-13T18:02:54.1766507Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>26</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>BARRA FCI</ProductName>
+      <Date>2017-03-13T18:03:03.5368508Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>27</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>DISJUNTOR 63A</ProductName>
+      <Date>2017-03-13T18:03:14.7362553Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>36</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>CABO COAXIAL 2YCY 0.4  2.5 PRETO</ProductName>
+      <Date>2017-03-13T18:03:24.7443862Z</Date>
+    </Estoques>
+    <Estoques>
+      <EstoqueID>7</EstoqueID>
+      <StockId>4</StockId>
+      <LocationId>7</LocationId>
+      <ProductId>39</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>CHUMBADOR CBA M10*15</ProductName>
+      <Date>2017-03-13T18:03:35.3863784Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>8</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>37</ProductId>
+      <ProductQtd>300</ProductQtd>
+      <ProductName>PORCA HEXAGONAL M10 A4</ProductName>
+      <Date>2017-03-13T18:00:25.0356951Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>9</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>38</ProductId>
+      <ProductQtd>300</ProductQtd>
+      <ProductName>ARRUELA DE PRESSÃO M10 A4</ProductName>
+      <Date>2017-03-13T18:00:34.0970672Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>10</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>1</ProductId>
+      <ProductQtd>75</ProductQtd>
+      <ProductName>CONECTOR AGULHA 16 MM</ProductName>
+      <Date>2017-03-13T18:10:05.6283981Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>11</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>7</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>CONECTOR OLHAL 16 MM ( FURO 8MM)</ProductName>
+      <Date>2017-03-13T18:10:15.2584614Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>12</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>11</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>FITA ISOLANTE DE ALTA FUSAO</ProductName>
+      <Date>2017-03-13T18:10:26.8278149Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>13</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>12</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>FITA ISOLANTE</ProductName>
+      <Date>2017-03-13T18:10:34.1373288Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>14</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>13</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE VERMELHA</ProductName>
+      <Date>2017-03-13T18:11:08.8562228Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>15</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>14</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE VERDE</ProductName>
+      <Date>2017-03-13T18:11:20.0841948Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>16</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>15</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE AZUL</ProductName>
+      <Date>2017-03-13T18:36:10.142335Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>17</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>16</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE CINZA</ProductName>
+      <Date>2017-03-13T18:36:16.3813216Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>18</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>17</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE AMARELA</ProductName>
+      <Date>2017-03-13T18:36:23.4259281Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>19</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>18</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE BRANCA</ProductName>
+      <Date>2017-03-13T18:36:34.3180713Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>20</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>19</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>ESPUMA EXPANSIVA</ProductName>
+      <Date>2017-03-13T18:36:45.3280579Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>21</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>23</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>TERMORETRATIL 25MM</ProductName>
+      <Date>2017-03-13T18:37:00.6773256Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>22</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>24</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>TERMORETRATIL 16MM</ProductName>
+      <Date>2017-03-13T18:37:08.7104527Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>23</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>26</ProductId>
+      <ProductQtd>2</ProductQtd>
+      <ProductName>BARRA FCI</ProductName>
+      <Date>2017-03-13T18:37:14.9831831Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>24</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>27</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>DISJUNTOR 63A</ProductName>
+      <Date>2017-03-13T18:03:14.728266Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>25</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>36</ProductId>
+      <ProductQtd>20</ProductQtd>
+      <ProductName>CABO COAXIAL 2YCY 0.4  2.5 PRETO</ProductName>
+      <Date>2017-03-13T18:37:27.9531433Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>26</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>1</LocationId>
+      <ProductId>39</ProductId>
+      <ProductQtd>2</ProductQtd>
+      <ProductName>CHUMBADOR CBA M10*15</ProductName>
+      <Date>2017-03-13T18:37:42.1563437Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>27</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>1</ProductId>
+      <ProductQtd>21</ProductQtd>
+      <ProductName>CONECTOR AGULHA 16 MM</ProductName>
+      <Date>2017-03-13T19:01:31.7734874Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>28</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>7</ProductId>
+      <ProductQtd>23</ProductQtd>
+      <ProductName>CONECTOR OLHAL 16 MM ( FURO 8MM)</ProductName>
+      <Date>2017-03-13T19:01:41.2508847Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>29</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>11</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE DE ALTA FUSAO</ProductName>
+      <Date>2017-03-13T19:01:59.3901344Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>30</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>12</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE</ProductName>
+      <Date>2017-03-13T19:10:31.9900746Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>31</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>13</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE VERMELHA</ProductName>
+      <Date>2017-03-13T19:10:45.4383012Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>32</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>14</ProductId>
+      <ProductQtd>0</ProductQtd>
+      <ProductName>FITA ISOLANTE VERDE</ProductName>
+      <Date>2017-03-13T19:10:59.7131984Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>33</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>15</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>FITA ISOLANTE AZUL</ProductName>
+      <Date>2017-03-13T18:36:10.1313269Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>34</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>16</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>FITA ISOLANTE CINZA</ProductName>
+      <Date>2017-03-13T18:36:16.3718145Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>35</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>17</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>FITA ISOLANTE AMARELA</ProductName>
+      <Date>2017-03-13T18:36:23.4164037Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>36</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>18</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>FITA ISOLANTE BRANCA</ProductName>
+      <Date>2017-03-13T18:36:34.3060628Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>37</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>19</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>ESPUMA EXPANSIVA</ProductName>
+      <Date>2017-03-13T18:36:45.3090265Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>38</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>23</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>TERMORETRATIL 25MM</ProductName>
+      <Date>2017-03-13T18:37:00.666818Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>39</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>24</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>TERMORETRATIL 16MM</ProductName>
+      <Date>2017-03-13T18:37:08.6969432Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>40</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>26</ProductId>
+      <ProductQtd>1</ProductQtd>
+      <ProductName>BARRA FCI</ProductName>
+      <Date>2017-03-13T18:37:14.971675Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>41</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>36</ProductId>
+      <ProductQtd>5</ProductQtd>
+      <ProductName>CABO COAXIAL 2YCY 0.4  2.5 PRETO</ProductName>
+      <Date>2017-03-13T19:11:14.1269004Z</Date>
+    </Estoques>
+  </Produtos>
+  <Produtos>
+    <Estoques>
+      <EstoqueID>42</EstoqueID>
+      <StockId>3</StockId>
+      <LocationId>3</LocationId>
+      <ProductId>39</ProductId>
+      <ProductQtd>2</ProductQtd>
+      <ProductName>CHUMBADOR CBA M10*15</ProductName>
+      <Date>2017-03-13T18:37:42.1448327Z</Date>
+    </Estoques>
+  </Produtos>
+</Estoque>

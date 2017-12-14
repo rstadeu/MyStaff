@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Stock>
+  <Stocks>
+    <StockId>1</StockId>
+    <StockName>CJM</StockName>
+  </Stocks>
+  <Stocks>
+    <StockId>2</StockId>
+    <StockName>BEL</StockName>
+  </Stocks>
+  <Stocks>
+    <StockId>3</StockId>
+    <StockName>CGR</StockName>
+  </Stocks>
+  <Stocks>
+    <StockId>4</StockId>
+    <StockName>SOD</StockName>
+  </Stocks>
+</Stock>

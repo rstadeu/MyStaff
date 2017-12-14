@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MaterialSubType>
+  <MaterialSubTypes>
+    <SubTypeID>1</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>CABO</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>2</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>CONECTORES</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>3</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>FERRAGENS</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>4</SubTypeID>
+    <MaterialTypeID>2</MaterialTypeID>
+    <SubTypeName>ETIQUETAS</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>5</SubTypeID>
+    <MaterialTypeID>1</MaterialTypeID>
+    <SubTypeName>ALUGADOS</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>6</SubTypeID>
+    <MaterialTypeID>1</MaterialTypeID>
+    <SubTypeName>PRÓPRIOS</SubTypeName>
+  </MaterialSubTypes>
+  <MaterialSubTypes>
+    <SubTypeID>7</SubTypeID>
+    <MaterialTypeID>3</MaterialTypeID>
+    <SubTypeName>GERAL</SubTypeName>
+  </MaterialSubTypes>
+</MaterialSubType>

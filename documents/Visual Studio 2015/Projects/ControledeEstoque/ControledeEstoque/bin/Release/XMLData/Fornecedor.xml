@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Fornecedor>
+  <Fornecedores>
+    <FornecedorId>1</FornecedorId>
+    <NomeFornecedor>ELETROTRANSOL BELEM DO PARA</NomeFornecedor>
+    <CEP>66055-170</CEP>
+    <Enredeco>Rua Diogo Móia</Enredeco>
+    <Numero>1101</Numero>
+    <Complemento></Complemento>
+    <UF>PA</UF>
+    <Cidade>Belém</Cidade>
+    <Telefone>(91) 3204-7700</Telefone>
+    <Ramal></Ramal>
+    <Email></Email>
+    <WebSite>http://www.eletrotransol.com.br</WebSite>
+    <IsActive>true</IsActive>
+  </Fornecedores>
+  <Fornecedores>
+    <FornecedorId>2</FornecedorId>
+    <NomeFornecedor>ELETRICA S/A</NomeFornecedor>
+    <CEP>18017-374</CEP>
+    <Enredeco>RUA ANTÔNIO MORENO</Enredeco>
+    <Numero>200</Numero>
+    <Complemento></Complemento>
+    <UF>SP</UF>
+    <Cidade>SOROCABA</Cidade>
+    <Telefone>(  )     -</Telefone>
+    <Ramal></Ramal>
+    <Email></Email>
+    <WebSite></WebSite>
+    <IsActive>true</IsActive>
+  </Fornecedores>
+</Fornecedor>

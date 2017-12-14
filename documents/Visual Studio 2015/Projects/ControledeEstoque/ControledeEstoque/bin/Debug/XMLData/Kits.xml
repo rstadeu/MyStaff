@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Kits>
+  <KitsProductDesc>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>80</ProductQtd>
+      <ProductId>1</ProductId>
+      <Products>CABO TERRA 16MM MKEM</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>20</ProductQtd>
+      <ProductId>2</ProductId>
+      <Products>TERMINAL TIPO FERRADURA 16MM</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>5</ProductQtd>
+      <ProductId>3</ProductId>
+      <Products>TERMORETRATIL 18, 6/6MM PRETO 1000MM</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>3</ProductQtd>
+      <ProductId>4</ProductId>
+      <Products>TUBO TERMORETRATIL18</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>200</ProductQtd>
+      <ProductId>5</ProductId>
+      <Products>FITA HELLERMAN 2,5</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>40</ProductQtd>
+      <ProductId>6</ProductId>
+      <Products>CABO PP 5X10MM</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>3</ProductQtd>
+      <ProductId>7</ProductId>
+      <Products>FIBRA MULTIMODO LC_LC 50MTS</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>3</ProductQtd>
+      <ProductId>8</ProductId>
+      <Products>CONECTOR FIBRA OPTICA</Products>
+    </KitProduct>
+    <KitProduct>
+      <KitId>1</KitId>
+      <ProductQtd>12</ProductQtd>
+      <ProductId>9</ProductId>
+      <Products>CABO FEEDER 1,5MTS</Products>
+    </KitProduct>
+  </KitsProductDesc>
+</Kits>
